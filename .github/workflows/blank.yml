@@ -32,7 +32,7 @@ jobs:
         run: echo Hello, world!
 
       # Runs test - NOT SAFE VERSION
-      - name: Log workflow context (SAFE)
+      - name: Log workflow context (NOT_SAFE)
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
